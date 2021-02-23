@@ -1,0 +1,89 @@
+#card{
+ height: 300px;
+ width: 800px ;
+margin: 100px auto;
+display: flex ;
+border: 1px;
+border-radius: 2%;
+font-weight: 750;
+text-align: left;
+box-shadow: 2px 3px 8px 5px #c4bfbf;
+}
+#options{
+  padding: 5px;
+  position: relative;
+  bottom: 100%;
+  font-weight: 530;
+}
+#card > span{
+padding: 4px ;
+}
+#options:hover{
+  color: #1f1717;
+  opacity: 0.6;
+}
+input[type=submit]{
+  position: relative;
+  right: 50px;
+  top: 60px;
+  background-color: #1f1717 ;
+  color: white;
+  margin: 6%;
+  padding: 0.1% 46%;
+  font-size: 20px;
+  border-radius: 4%;
+}
+input[type=submit]:hover{
+  background-color: #bebaba ;
+  color: black;
+}
+#result-container{
+  height: 150px;
+ width: 300px ;
+margin: 0px auto;
+display: block ;
+border: none;
+border-radius: 2%;
+font-weight: bold ;
+box-shadow: 2px 3px 8px 5px #c4bfbf;
+text-align: center;
+}
+.title > h1{
+  margin :  20px 550px;
+  justify-content: center;
+}
+#res-button{
+  position: relative;
+  left : 503px;
+  bottom : 1px;
+  background-color: #1f1717 ;
+  color: white;
+  margin: 0 auto;
+  padding: 0.1% 7%;
+  font-size: 20px;
+  border-radius: 4%;
+}
+#res-button:hover{
+  background-color: #bebaba ;
+  color: black;
+}
+#container{
+  height: 300px;
+  width: 800px ;
+ margin: 100px auto;
+ display: flex ;
+ border: 1px;
+ border-radius: 2%;
+ font-weight: 750;
+ text-align: left;
+ box-shadow: 2px 3px 8px 5px #c4bfbf;
+}
+#container > img {
+  position: relative;
+  right: 10px;
+  image-resolution: 10;
+  padding: 10px ;
+}
+#list{
+  position : relative
+}
